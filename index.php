@@ -2,10 +2,9 @@
 
 <?php
 // Task1
-echo "Marwan    <br>";
-echo "Mohamed   <br>";
-echo "Moustafa  <br>";
-echo "<hr>";
+$myName = "Marwan\nMohamed";
+$lineByline=nl2br($myName);
+echo $lineByline;
 // -----------------------------------------------------------
 // Task2
 
